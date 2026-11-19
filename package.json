@@ -1,3 +1,14 @@
-{"name":"passrescue","private":true,"type":"module","scripts":{"dev":"vite","build":"vite build"},
-"dependencies":{"react":"^18.3.1","react-dom":"^18.3.1"},
-"devDependencies":{"@vitejs/plugin-react":"^4.3.1","vite":"^5.4.0"}}
+{
+  "name": "passrescue-command",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "PassRescue mission planning interface and local scheduling backend.",
+  "scripts": {
+    "dev": "node scripts/preview.mjs",
+    "start": "node scripts/preview.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests-js/*.test.mjs"
+  },
+  "engines": {"node": ">=18"}
+}
